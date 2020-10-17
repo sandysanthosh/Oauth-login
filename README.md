@@ -1,9 +1,10 @@
 # Springboot-OAuth-Github
 
+Create a OAuth in github https://github.com/settings/developers it will provide Client ID , Client Secret then use in Spring Boot Application.
 
-### Oauth in 3 steps:
+### OAuth in 3 steps:
 
-### Pom.xml:
+### steps 1 Pom.xml:
 
 	<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -11,7 +12,7 @@
 		</dependency>
 
 
-#### main.java:
+#### steps 2 main.java:
 
 ```
 package com.example.demo;
@@ -43,7 +44,7 @@ public class Application {
 
 ```
 
-### Application.yml:
+### steps 3 Application.yml:
 
 
 ```
@@ -65,3 +66,9 @@ security:
 ### Test the links:
 
 http://localhost:8080/
+
+
+![image](https://user-images.githubusercontent.com/11579239/96330652-9bbc6d00-1074-11eb-8154-d0e27c84c8f2.png)
+
+
+
